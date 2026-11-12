@@ -1,0 +1,92 @@
+.btn-outline-success{
+    color: black;
+}
+ .carousel-inner{
+    height: 90vh;
+ }
+ .carousel-item.carousel-item{
+    height: 100%;
+ }
+.buliding{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    text-align: center;
+    box-shadow: 20px 20x 20px gray;
+}
+.card img{
+ filter: brightness(80%);
+ transition: 0.5;
+}
+.card img:hover{
+    filter: brightness(100%);
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+.icons a{
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+.title{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom:-25px;
+ }
+ .content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 20px;
+ }
+.map{
+    width: 50%;
+    margin-top: 65px;
+    height: 400px;
+ }
+.form {
+     background-color: white;
+      padding: 40px;
+      width:45%;
+     border-radius: 8px;
+ }
+.form input {
+            width: 100%;
+            padding: 12px 15px;
+            margin-bottom: 15px; 
+            border: 1px solid black;
+            border-radius: 4px;
+            font-size: 14px;
+            color:green;
+ }
+.form textarea {
+            width: 100%;
+            padding: 12px 15px;
+            margin-bottom: 20px;
+            border: 1px solid black;
+            border-radius: 4px;
+            font-size: 14px;
+            height: 120px; 
+            resize: none; /* لمنع المستخدم من تكبير وتصغير الصندوق */
+        }
+.form button {
+    width: 100%;
+    padding: 15px;
+  background-color:forestgreen;
+    color: white;
+    border: none;
+  border-radius: 5px;
+  font-size: 15px;
+ font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.form button:hover {
+     background-color:greenyellow;
+}
+img{
+    height: 200px;
+}
